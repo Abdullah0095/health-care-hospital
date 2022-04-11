@@ -27,7 +27,7 @@ const Banner = () => {
 
         <div>
             <Container className="mt-5 slider-design" fluid>
-                <h3 style={{textAlign: 'center', color: 'gray'}}>"A century ago, we made a commitment. We’ve kept it."</h3>
+                <h3 style={{textAlign: 'center', color: 'rgb(32, 140, 148)'}}>"A century ago, we made a commitment. We’ve kept it."</h3>
                 <Slider {...settings}>
                     <div>
                         <img src={image1} alt="" />

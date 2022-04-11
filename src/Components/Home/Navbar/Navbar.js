@@ -13,13 +13,7 @@ const Navbar = () => {
                     <Col xs={12} sm={12} md={2} lg={2}><p><b>Call Us: </b><br /> (+1) 352-361-1779 </p></Col>
                     <Col xs={12} sm={12} md={2} lg={2}><p><b>Mail Us: </b><br />info@whealthcarehospital.co.uk</p></Col>
                 </Row>
-
-                <div>
-                
-                </div>
             </section>
-            
-
         </Container>
 
 

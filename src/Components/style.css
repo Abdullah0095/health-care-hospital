@@ -1,18 +1,24 @@
 /* navbar design which is in banner */ 
 #nav-design{
     margin-right: 50px;
-    color: black;
-    
-}
-#nav-design Nav.Link{
-    color: red;
+    color: black;   
 }
 
 /*slider design in banner*/ 
 .slider-design img{
     height: 400px;
     width: 90%;
-    margin-left: 70px;
-    
-   
+    margin-left: 70px;  
+}
+/*card style*/ 
+#cardStyle{
+    width: 23rem;
+    float: left;
+    margin: 30px;
+    height: 32rem;
+    box-shadow: 5px 5px 8px gray;
+}
+
+#cardStyle img{
+    height: 300px;
 }
