@@ -1,0 +1,18 @@
+/* navbar design which is in banner */ 
+#nav-design{
+    margin-right: 50px;
+    color: black;
+    
+}
+#nav-design Nav.Link{
+    color: red;
+}
+
+/*slider design in banner*/ 
+.slider-design img{
+    height: 400px;
+    width: 90%;
+    margin-left: 70px;
+    
+   
+}
