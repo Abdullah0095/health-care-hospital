@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, Container } from 'react-bootstrap';
 
 const Services = () => {
 
@@ -37,13 +37,14 @@ const Services = () => {
     ]
 
     return (
-        <div style={{ marginTop: '50px' }}>
-            <div><h1 style={{ textAlign: 'center', marginBottom: '30px' }}>We Provide</h1></div>
-            <div>
-                {serviceData.map(services => <ServiceList service={services} ></ServiceList>)}
+        <Container id='serviceCenter' fluid>
+            <div style={{ marginTop: '50px' }}>
+                <div><h1 style={{ textAlign: 'center', marginBottom: '30px' }}>We Provide</h1></div>
+                <div>
+                    {serviceData.map(services => <ServiceList service={services} ></ServiceList>)}
+                </div>
             </div>
-
-        </div>
+        </Container>
     );
 };
 
@@ -52,7 +53,7 @@ const ServiceList = (props) => {
     const { name, image } = props.service;
 
     return (
-        <div style={{marginLeft: '30px'}}>
+        <div style={{ marginLeft: '30px' }}>
             <Card id='cardStyle'>
                 <Card.Img variant="top" src={image} />
                 <Card.Body>

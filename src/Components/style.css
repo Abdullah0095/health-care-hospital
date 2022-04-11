@@ -22,3 +22,8 @@
 #cardStyle img{
     height: 300px;
 }
+
+/* service center */
+#serviceCenter{
+    background-color: aquamarine;
+}
