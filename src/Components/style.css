@@ -15,8 +15,9 @@
     width: 23rem;
     float: left;
     margin: 30px;
-    height: 32rem;
+    height: 26rem;
     box-shadow: 5px 5px 8px gray;
+    text-align: center;
 }
 
 #cardStyle img{
@@ -26,4 +27,23 @@
 /* service center */
 #serviceCenter{
     background-color: aquamarine;
+}
+
+/*testimonial*/
+#testimonial-users{
+    border: 1px solid rgb(28, 88, 88);
+    border-radius: 40px;
+    width: 300px;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(148, 177, 177);
+
+}
+#testimonial-users img{
+    height: 150px;
+    width: 150px;
+    border: 1px solid gray;
+    border-radius: 70px;
 }
