@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Container } from 'react-bootstrap';
 
 
 const Testimonial = () => {
@@ -13,9 +14,16 @@ const Testimonial = () => {
     console.log(images)
 
     return (
-        <div style={{marginLeft: '40px'}}>
-            {images.map(image => <Users photo={image}></Users>)}
+
+        <div>
+            <Container fluid>
+                <div style={{ marginLeft: '40px' }}>
+                    <div style={{ textAlign: 'center', margin: '30px', color: 'rgb(28, 88, 88)' }}><h1>"Our Happy Patients"</h1></div>
+                    {images.map(image => <Users photo={image}></Users>)}
+                </div>
+            </Container>
         </div>
+
     );
 };
 

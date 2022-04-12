@@ -39,6 +39,7 @@
     padding: 20px;
     text-align: center;
     background-color: rgb(148, 177, 177);
+    margin-top: 20px;
 
 }
 #testimonial-users img{
@@ -46,4 +47,5 @@
     width: 150px;
     border: 1px solid gray;
     border-radius: 70px;
+    margin-bottom: 20px;
 }
