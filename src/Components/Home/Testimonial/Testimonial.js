@@ -11,7 +11,8 @@ const Testimonial = () => {
             .then(res => res.json())
             .then(data => setImages(data.results))
     }, []);
-    console.log(images)
+
+    // console.log(images);
 
     return (
 
@@ -32,7 +33,7 @@ const Users = (props) => {
         <div>
             <div id='testimonial-users'>
                 <img src={props.photo.picture.medium} alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati optio inventore vero esse reprehenderit fuga quos pariatur minus eos a?</p>
+                <p>health care hospital is one the finest hospital of our area. They cares their patients so well. they deserve an warm welcome.</p>
             </div>
         </div>
     )

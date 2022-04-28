@@ -5,7 +5,7 @@ const News = () => {
     return (
         
             <div>
-                <h1>banglesh</h1>
+                <h1>bangladesh</h1>
             </div>
         
     );
