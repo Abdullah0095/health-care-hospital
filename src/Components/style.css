@@ -31,15 +31,17 @@
 
 /*testimonial*/
 #testimonial-users{
-    border: 1px solid rgb(28, 88, 88);
-    border-radius: 40px;
+    border: 3px solid rgb(96, 221, 116);
+    border-radius: 20px;
     width: 300px;
     float: left;
     margin: 10px;
     padding: 20px;
     text-align: center;
-    background-color: rgb(148, 177, 177);
+    background-color: rgb(60, 110, 69);
     margin-top: 20px;
+    color: white;
+    
 
 }
 #testimonial-users img{
@@ -47,5 +49,5 @@
     width: 150px;
     border: 1px solid gray;
     border-radius: 70px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }

@@ -7,7 +7,7 @@ const Testimonial = () => {
     const [images, setImages] = useState([]);
 
     useEffect(() => {
-        fetch("https://randomuser.me/api/?results=9")
+        fetch("https://randomuser.me/api/?results=8")
             .then(res => res.json())
             .then(data => setImages(data.results))
     }, []);
@@ -18,7 +18,7 @@ const Testimonial = () => {
         <div>
             <Container fluid>
                 <div style={{ marginLeft: '40px' }}>
-                    <div style={{ textAlign: 'center', margin: '30px', color: 'rgb(28, 88, 88)' }}><h1>"Our Happy Patients"</h1></div>
+                    <div style={{ textAlign: 'center', margin: '30px', color: 'rgb(28, 88, 88)' }}><h1>"Some of Our Happy Patients"</h1></div>
                     {images.map(image => <Users photo={image}></Users>)}
                 </div>
             </Container>
